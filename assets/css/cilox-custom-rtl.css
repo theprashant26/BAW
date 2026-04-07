@@ -1,0 +1,98 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.slick-slider .slick-slide {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-slider-one__item::after {
+  display: none;
+}
+
+.service-card__btn i,
+.contact-one__shape,
+.showcase-one__shape,
+.blog-card__btn .cilox-btn i,
+.about-two__thumb__shape {
+  transform: rotateY(180deg);
+}
+
+.service-one__custome-navs button:first-child,
+.project-area__custome-navs button:first-child,
+.main-slider-one__slick-button:first-child,
+.testimonials-two__slick-button:first-child,
+.testimonials-three__slick-button:first-child {
+  transform: rotate(0deg) !important;
+}
+.service-one__custome-navs button:last-child,
+.project-area__custome-navs button:last-child,
+.main-slider-one__slick-button:last-child,
+.testimonials-two__slick-button:last-child,
+.testimonials-three__slick-button:last-child {
+  transform: rotate(180deg) !important;
+}
+
+.cta-one:hover .cta-one__top__btn {
+  transform: translateX(0px) rotate(-45deg);
+}
+
+.main-slider-one__bg__shape {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.main-slider-one__title .design {
+  opacity: 1;
+  animation: fadeDown 0.6s forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+.main-slider-one .slick-active .main-slider-one__bg {
+  transform: scale(1.1);
+  transition-delay: 0ms;
+}
+
+.main-slider-one .slick-active .main-slider-one__bg__shape {
+  opacity: 1;
+  transition-delay: 1000ms;
+  transform: scale(1);
+}
+
+.main-slider-one .slick-active .main-slider-one__text {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0ms;
+}
+
+.main-slider-one .slick-active .main-slider-one__title .design {
+  animation: fadeUp 1s forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+.main-slider-one .slick-active .main-slider-one__btn {
+  opacity: 1;
+  transform: perspective(400px) rotateY(0deg) translateY(0px);
+  transition-delay: 0ms;
+}
+/*# sourceMappingURL=cilox-custom-rtl.css.map */

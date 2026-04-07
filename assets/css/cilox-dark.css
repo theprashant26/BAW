@@ -1,0 +1,90 @@
+:root {
+  --cilox-black: #0e0f11;
+  --cilox-black-rgb: 24, 25, 28;
+  --cilox-text: #797b81;
+  --cilox-text-rgb: 121, 123, 129;
+  --cilox-text2: #75767a;
+  --cilox-text2-rgb: 117, 118, 122;
+  --cilox-white: #ffffff;
+  --cilox-white-rgb: 255, 255, 255;
+  --cilox-base: #123B2A;
+  --cilox-base-rgb: 245, 191, 62;
+  --cilox-black2: #000;
+  --cilox-black2-rgb: 0, 0, 0;
+}
+
+body,
+body.boxed-wrapper .page-wrapper {
+  background-color: var(--cilox-black);
+}
+
+.sec-title__tagline {
+  color: var(--cilox-text2);
+}
+
+.about-two__feature__list__item,
+.team-card__title,
+.about-two .progress-box .progress-box__title,
+.service-card__title,
+.cta-one__title,
+.blog-card__title,
+.sec-title__title {
+  color: var(--cilox-white);
+}
+
+.about-two::after {
+  background-image: -moz-linear-gradient(90deg, rgb(24, 25, 28) 0%, rgb(14, 15, 17) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(24, 25, 28) 0%, rgb(14, 15, 17) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(24, 25, 28) 0%, rgb(14, 15, 17) 100%);
+}
+
+.about-two .progress-box .progress-box__bar {
+  background-color: #18191c;
+}
+
+.about-two__thumb__image-two img {
+  border: 15px solid #fff;
+  border-bottom: 15px solid #fff;
+  border-right: 15px solid #fff;
+}
+
+.service-card__text,
+.cta-one__title,
+.service-card {
+  border-color: #18191c;
+}
+
+.service-card__text,
+.service-card {
+  background-color: var(--cilox-black);
+}
+
+.service-card:hover .service-card__icon {
+  background-color: var(--cilox-base);
+}
+
+.client-carousel {
+  background-color: var(--cilox-black);
+}
+
+.blog-card__content,
+.brand-two .client-carousel__one__item:hover {
+  background-color: #18191c;
+}
+
+.brand-two .client-carousel {
+  border-color: #18191c;
+}
+
+.contact-one .sec-title__title {
+  color: var(--cilox-black);
+}
+
+.blog-card__btn .cilox-btn {
+  background-color: #18191c;
+  border-color: var(--cilox-black);
+}
+.blog-card__btn .cilox-btn i {
+  background-color: var(--cilox-black);
+}
+/*# sourceMappingURL=cilox-dark.css.map */
