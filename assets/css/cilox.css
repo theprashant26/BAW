@@ -9072,7 +9072,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 270px;
+  padding-top: 200px;
   padding-bottom: 195px;
   z-index: 1;
 }
@@ -9091,7 +9091,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
-  background-image: url(../images/backgrounds/page-header-bg-1-1.jpg);
+  background-color: #08380e;
   z-index: -1;
 }
 .page-header__title {
