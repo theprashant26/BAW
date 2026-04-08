@@ -3355,7 +3355,7 @@ body.megamenu-popup-active .mobile-nav__content {
   right: 0;
   width: 304px;
   height: 223px;
-  background-color: var(--cilox-black, #18191c);
+  background-color: #08380e;
 }
 @media (max-width: 1199px) {
   .why-choose-one__thumb::after {
@@ -3459,7 +3459,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .why-choose-one .why-choose-one__list .why-choose__item .why-choose__item__text {
   font-size: 15px;
-  color: #75767a;
+  color: white;
   line-height: 1.733;
   text-align: left;
   margin: 0;
@@ -11731,7 +11731,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-two-card__content {
   position: relative;
   z-index: 1;
-  background-color: var(--cilox-black, #18191c);
+  background-color: #08380e;
   padding: 50px;
   overflow: hidden;
 }
@@ -11769,7 +11769,6 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 24px;
   color: var(--cilox-white, #fff);
   font-weight: bold;
-  text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
   margin-bottom: 20px;
@@ -11793,7 +11792,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .service-two-card__text {
   font-size: 16px;
-  color: var(--cilox-text, #797b81);
+  color: white;
   line-height: 1.625;
   font-weight: 500;
   margin-bottom: 0;
@@ -11810,9 +11809,8 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 0 0px 0 30px;
   gap: 20px;
   font-size: 12px;
-  color: #797b81;
+  color: white;
   font-weight: bold;
-  text-transform: uppercase;
   line-height: 1.2;
 }
 .service-two-card .cilox-btn::after, .service-two-card .cilox-btn::before {
@@ -14445,7 +14443,7 @@ body.boxed-wrapper .page-wrapper {
 
 .trusted-sector__tagline {
     display: inline-block;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -14454,7 +14452,7 @@ body.boxed-wrapper .page-wrapper {
 }
 
 .trusted-sector__title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.15;
     text-transform: uppercase;
@@ -14538,7 +14536,7 @@ body.boxed-wrapper .page-wrapper {
     align-items: flex-start;
     gap: 10px;
     font-size: 15px;
-    color: var(--cilox-text, #797b81);
+    color: white;
     line-height: 1.7;
     margin-bottom: 10px;
     font-weight: 500;
