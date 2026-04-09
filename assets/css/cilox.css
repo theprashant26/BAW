@@ -3376,15 +3376,10 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   display: flex;
   align-items: center;
-  margin-left: -333px;
   position: relative;
   z-index: 1;
 }
-@media (max-width: 1299px) {
-  .why-choose-one .why-choose-one__list {
-    margin-left: -400px;
-  }
-}
+
 @media (max-width: 1199px) {
   .why-choose-one .why-choose-one__list {
     margin-left: 0px;
