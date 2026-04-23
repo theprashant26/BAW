@@ -319,7 +319,7 @@
 .sec-title__tagline {
   margin: 0;
   font-size: 14px;
-  color: white;
+  color: #08380E;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
@@ -328,7 +328,7 @@
 }
 .sec-title__title {
   font-size: 25px;
-  color: white;
+  color: #08380E;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
@@ -360,7 +360,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--cilox-font, "Instrument Sans", sans-serif);
-  color: var(--cilox-text, #797b81);
+  color: #08380E;
   font-size: 16px;
   line-height: 1.875;
   font-weight: 500;
