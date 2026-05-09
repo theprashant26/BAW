@@ -11261,12 +11261,7 @@ body.megamenu-popup-active .mobile-nav__content {
     rgb(8, 56, 14) 0%,
     rgb(255, 255, 255) 100%
   );
-  background-image: -webkit-radial-gradient(
-    50% 50%,
-    circle closest-side,
-    rgb(8, 56, 14) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  
   background-image: -ms-radial-gradient(
     50% 50%,
     circle closest-side,
